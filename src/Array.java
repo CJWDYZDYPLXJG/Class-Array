@@ -37,7 +37,7 @@ public class Array {
         add(0, e);
     }
 
-    //在第index个为止插入一个新元素e
+    //在第index位置，插入一个新元素e
     public void add(int index, int e) {
         if (size == data.length)
             throw new IllegalArgumentException("add执行失败");
@@ -45,11 +45,38 @@ public class Array {
         if (index < 0 || index > size)
             throw new IllegalArgumentException("index<0||index>size执行失败");
 
-        for (int i = size - 1; i >= index; i--) {
+        for (int i = size - 1; i >= index; i--)
             data[i + 1] = data[i];
+        data[index] = e;
+        size++;
 
-            data[index] = e;
-            size++;
+    }
+
+    //获取index 索引位置的元素
+    int get(int index) {
+        if (index < 0 || index >= size)
+            throw new IllegalArgumentException("Get failed.Index.is illgal.");
+        return data[index];
+    }
+
+    //修改index索引位置的元素为e
+    void set(int index, int e) {
+        if (index < 0 || index >= size)
+            throw new IllegalArgumentException("Get failed.Index.is illgal.");
+        data[index] = e;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder res = new StringBuilder();
+        res.append(String.format("Array:size=%d,capacity=%d\n", size, data.length));
+        res.append('[');
+        for (int i = 0; i < size; i++) {
+            res.append(data[i]);
+            if (i != size - 1)
+                res.append(", ");
         }
+        res.append("]");
+        return res.toString();
     }
 }
