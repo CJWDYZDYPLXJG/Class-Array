@@ -85,15 +85,26 @@ public class Array {
     }
 
     //从数组中删除index位置的元素，返回删除的元素
-    public  int remove(int index){
-        if(index<0||index>=size)
+    public int remove(int index) {
+        if (index < 0 || index >= size)
             throw new IllegalArgumentException("Remove failed.Index is illegel");
-        int ret =data[index];
-        for (int i = index+1   ; i <size ; i++)
-            data[i-1]=data[i];
+        int ret = data[index];
+        for (int i = index + 1; i < size; i++)
+            data[i - 1] = data[i];
         size--;
-        return  ret;
+        return ret;
     }
+
+    //从数组中删除第一个元素，返回删除的元素
+    public int removeFirst() {
+        return remove(0);
+    }
+
+    //从数组中删除最后一个元素，返回删除的元素
+    public int removeLast() {
+        return remove(size - 1);
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
