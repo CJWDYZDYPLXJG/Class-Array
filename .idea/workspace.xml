@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="92ed63a2-7818-4036-8cb9-ada0e6ad7c8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Array/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Array/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Array/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Array/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606207208219</updated>
-      <workItem from="1606207213302" duration="16458000" />
+      <workItem from="1606207213302" duration="17104000" />
     </task>
     <task id="LOCAL-00001" summary="Array">
       <created>1606275653832</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606275653833</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Array">
+      <created>1606276427176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606276427176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,10 +114,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="517" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606221590956" />
-    <state x="385" y="7" key="CommitChangelistDialog2" timestamp="1606275652741">
+    <state x="385" y="7" key="CommitChangelistDialog2" timestamp="1606276426308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606275652741" />
+    <state x="385" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606276426308" />
     <state width="1074" height="144" key="GridCell.Tab.0.bottom" timestamp="1606276379768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
